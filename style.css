@@ -1,0 +1,67 @@
+body {
+  background: url('https://i.ibb.co/qrd1q93/1077004-popular-razer-chroma-wallpapers-2560x1440-hd.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  color: #D38647;
+  font-size: 3em;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  margin: 1em 1em;
+  color: #e3e3e3;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+#description {
+  display: flex;
+  justify-content: center;
+  margin: 2em 3em;
+  color: #e3e3e3;
+  line-height: 1.7em;
+  font-size: 1.2em;
+}
+
+#convert, #userinput {
+  border-radius: 300px;
+  text-align: center;
+  height: 3em;
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+#convert {
+  background-color: #76B8B8;
+}
+
+#convert:hover {
+  background-color: #ff7400;
+  transition: 0.3s;
+    cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 3em;
+}
