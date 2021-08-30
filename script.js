@@ -38,7 +38,7 @@ const hexToRgb = () => {			//converts HEX to RGB or vice verca
 			const setRgbColor = () => {
 				colorBox.style.backgroundColor = `rgb(${[...rgb]})`;
 				colorBox.style.visibility = "visible";
-				return `✓ Hex to RGB: rgb(${rgb})`; 
+				return `rgb(${rgb})`; 
 			}
 			const throwRgbError = () => {
 				colorBox.style.visibility = "hidden";
@@ -50,7 +50,7 @@ const hexToRgb = () => {			//converts HEX to RGB or vice verca
 			const setHexColor = () => {
 				colorBox.style.backgroundColor = hex;
 				colorBox.style.visibility = "visible";
-				return `✓ RGB to Hex: ${hex}`; 
+				return hex;
 			}
 			const throwHexError = () => {
 				colorBox.style.visibility = "hidden";

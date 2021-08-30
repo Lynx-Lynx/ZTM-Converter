@@ -19,7 +19,6 @@ body {
 .first {
   font-size: 2em;
   color: #e3e3e3;
-  /*text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;*/
 }
 
 .second {
@@ -36,6 +35,8 @@ body {
 
 #result {
   font-size: 1.5em;
+  font-weight: 500;
+  text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
   grid-area: result;
 }
 
